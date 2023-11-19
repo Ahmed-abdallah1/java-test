@@ -1,0 +1,50 @@
+.all{
+    width: 80%;
+    margin:10px auto;
+    text-align: center;
+    transition: all 0.5s;
+}
+body{
+    transition: all 0.5s;
+}
+.acc-btn{
+    width: 100%;
+    padding: 15px 0px;
+    background-color: black;
+    color: white;
+    border: 1px solid tomato;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.accordin{
+    height: 0;
+    overflow: hidden;
+    transition: all 0.9;
+}
+.imges{
+    width: 100%;
+    text-align: center;
+}
+.imges .small-imges{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.imges .small-imges img{
+    width: 15%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.imges .big-img{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.imges .big-img img{
+    width: 50%;
+    border-radius: 10px;
+   cursor: pointer;
+}
